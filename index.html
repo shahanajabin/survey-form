@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<h1>
+			<center><b>INCIDENT REPORT FORM</b></center>
+		</h1>
+		<h4>
+			<center>
+				<i
+					>Use this form to report incidents, medical situations or accidents.
+					Please complete the report within 24 hours of the event
+				</i>
+			</center>
+		</h4>
+		<hr />
+
+		<h3>PERSON INVOLVED IN THE INCIDENT</h3>
+
+		<form>
+			<div>
+				<label><b>Name</b></label>
+				<input
+					type="text"
+					id="Name"
+					placeholder="Enter Your Name" /><br /><br />
+			</div>
+
+			<div>
+				<label><b>Gender</b></label
+				><br />
+				<input type="radio" name="Gender" value="Male" />Male
+				<input type="radio" name="Gender" value="Female" />Female
+				<input type="radio" name="Gender" value="other" />Other <br /><br />
+			</div>
+
+			<div>
+				<label><b>Age</b></label>
+				<input type="text" id="Age" placeholder="Enter Your Age" /><br /><br />
+			</div>
+
+			<div>
+				<label><b>Contact Number</b></label>
+				<input
+					type="text"
+					id="Phone Number"
+					placeholder="Enter Your Number" /><br />
+			</div>
+
+			<h3>INFORMATION ABOUT THE INCIDENT</h3>
+
+			<div>
+				<label><b>Date of incident</b></label>
+				<input type="date" />
+				<label><b>Time of incident</b></label>
+				<input type="time" /><br /><br />
+			</div>
+
+			<div>
+				<label><b>Location Of Incident</b></label>
+				<input type="type" placeholder="location" /><br /><br />
+			</div>
+
+			<div>
+				Description Of Incident:<br />
+				<textarea rows="5" cols="50" name="Describtion"> </textarea><br /><br />
+			</div>
+
+			<div>
+				<label><b>Where there any witnesses?</b></label
+				><br />
+				<input type="radio" name="yes or no" value="Yes" />yes
+				<input type="radio" name="yes or no" value="No" />No<br /><br />
+			</div>
+
+			<div>
+				<label><b>Was the individual injured?</b></label
+				><br />
+				<input type="radio" name="yes or no" value="Yes" />Yes
+				<input type="radio" name="yes or no" value="yes" />No<br /><br />
+			</div>
+
+			<div>
+				<label><b>Was medical treatment provided?</b></label
+				><br />
+				<input type="radio" name="yes or no" value="yes" />Yes
+				<input type="radio" name="yes or no" value="no" />No<br /><br />
+			</div>
+
+			<button type="submit" value="submit"><b>Send incident report</b></button>
+		</form>
+	</body>
+</html>
