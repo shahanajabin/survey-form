@@ -1,6 +1,22 @@
 body {
   background-color: #f2dfc7;
 }
+h1{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
+form{
+  background-color: #ffffff;
+  max-width: 500px;
+  border-radius: 20px;
+  margin-left: 700px;
+  
+}
 
 button{
   background-color: #ae6f1e;
