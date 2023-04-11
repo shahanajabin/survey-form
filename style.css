@@ -1,5 +1,7 @@
 body {
   background-color: #f2dfc7;
+  text-align: center;
+
 }
 h1{
   text-align: center;
@@ -12,10 +14,8 @@ h3{
 }
 form{
   background-color: #ffffff;
-  max-width: 500px;
   border-radius: 20px;
-  margin-left: 700px;
-  
+  padding: 30px;
 }
 
 button{
@@ -23,15 +23,19 @@ button{
   border: 1px solid #777;
   border-radius: 2px;
   font-family: serif;
-  font-size: 15px;
+  font-size: 13px;
   display: block;
   margin-top: 50px;
   margin-bottom: 20px;
+  color: white;
 }
 
-form-control{
+ 
+.form-control {
+  text-align: left;
   margin-bottom: 25px;
 }
+
 
 .form-control input,
 .form-control select,
@@ -42,3 +46,4 @@ form-control{
     padding: 10px;
     display: block;
     width: 95%;}
+    .form-control{text-align: left;}
